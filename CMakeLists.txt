@@ -32,6 +32,7 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+# (Nếu package của bạn dùng CMake, hãy thêm đoạn này)
 install(
   DIRECTORY config description launch worlds
   DESTINATION share/${PROJECT_NAME}
